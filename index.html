@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Flebox do jeito certo! @gustavoquinalha</title>
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/ghq.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <title>Flexbox do jeito certo - @gustavoquinalha</title>
+  <meta name="description" content="Slide sobre flexbox com exemplos, flex-basis, flex-grow, flex, demo, css" />
+  <meta name="author" content="Gustavo Quinalha<gusquinalha@gmail.com>" />
+  <link rel="base" href="http://quinalha.me/flexbox/" />
+  <link rel="canonical" href="http://quinalha.me/flexbox/" />
+  <meta rel="sitemap" type="application/xml" content="http://quinalha.me/flexbox/" />
+  <meta name="robots" content="index/follow" />
+  <meta name="googlebot" content="index/follow" />
+  <meta name="theme-color" content="#222222" />
+  <meta name="msapplication-navbutton-color" content="#222222" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#222222" />
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Flexbox do jeito certo - @gustavoquinalha" />
+  <meta itemprop="description" content="Slide sobre flexbox com exemplos, flex-basis, flex-grow, flex, demo, css" />
+  <meta itemprop="image" content="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" />
+  <!-- markup for facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Flexbox do jeito certo - @gustavoquinalha" />
+  <meta property="og:url" content="http://quinalha.me/flexbox/" />
+  <meta property="og:site_name" content="flexbox" />
+  <meta property="og:image" content="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" />
+  <meta property="og:description" content="Slide sobre flexbox com exemplos, flex-basis, flex-grow, flex, demo, css" />
+  <meta property="og:locale" content="pt_Br" />
+  <meta property="fb:app_id" content="" />
+  <meta property="fb:admins" content="" />
+  <!-- markup for twitter -->
+  <meta name="twitter:card" content="Gallery" />
+  <meta name="twitter:title" content="Flexbox do jeito certo - @gustavoquinalha" />
+  <meta name="twitter:description" content="Slide sobre flexbox com exemplos, flex-basis, flex-grow, flex, demo, css" />
+  <meta name="twitter:creator" content="Gustavo Quinalha<gusquinalha@gmail.com>" />
+  <meta name="twitter:image" content="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" />
+  <!-- JSON-LD - structured data markup Google Search -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://www.schema.org",
+      "@type": "website",
+      "name": "flexbox do jeito certo",
+      "alternateName": "flexbox",
+      "url": "http://quinalha.me/flexbox/"
+    }
+  </script>
+
+
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--
+https://speakerdeck.com/diogomoretti/css-layout-from-table-to-flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+http://www.flexboxpatterns.com/home
+-->
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+      <section class="intro">
+        <h1><span class="color">Flexbox</span> do <strong>jeito certo</strong></h1>
+        <hr class="hr-theme">
+        <p><a class="color-white" href="https://github.com/gustavoquinalha" target="_blank">@gustavoquinalha</a></p>
+      </section>
+
+      <section style="text-align: left!important">
+        <h2>Gustavo Quinalha</h2>
+        <div class="container center">
+          <div class="flex">
+            <small><strong>Full Stack Developer at Monk</strong></small>
+            <br />
+            <small><a class="color-white" href="mailto:gusquinalha@hotmail.com">gusquinalha@hotmail.com</a></small>
+            <br />
+            <ul>
+              <li><a href="https://github.com/gustavoquinalha" target="_blank">Github</a></li>
+              <li><a href="https://codepen.io/gustavoquinalha/" target="_blank">Codepen</a></li>
+              <li><a href="https://www.linkedin.com/in/gustavo-quinalha-2a6b83101/" target="_blank">Linkedin</a></li>
+              <li><a href="https://www.behance.net/gustavoquinalha" target="_blank">Behance</a></li>
+              <li><a href="https://www.facebook.com/gquinalha" target="_blank">Facebook</a></li>
+            </ul>
+          </div>
+          <div class="basis4">
+            <img src="img/eu.jpg" alt="" width="100%" class="rounded">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="color">FLEXBOX</h2>
+        <img src="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" alt="" width="70%">
+
+      </section>
+
+      <section>
+        <section>
+          <h2 class="color">Flexbox Properties</h2>
+          <p>Como falado antes, o flexbox possui propriedades para o <span class="bgg">container</span> e para o <span class="bgg">item</span>:</p>
+        </section>
+
+        <section>
+          <div class="example">
+            <div class="pai">Pai(container)</div>
+            <div class="container center">
+              <div class="item">Filho(item)</div>
+              <div class="item">Filho(item)</div>
+            </div>
+          </div>
+
+          <pre><code class="hljs">&lt;div class="container"&gt;
+  &lt;div&gt;Item&lt;/div&gt;
+  &lt;div&gt;Item&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </section>
+      </section>
+
+      <section>
+        <section>
+
+          <h2 class="color">LINKS</h2>
+          <ul>
+            <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+            <li>https://speakerdeck.com/diogomoretti/css-layout-from-table-to-flexbox</li>
+            <li>https://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/</li>
+            <li>http://brolik.com/blog/when-to-use-flexbox/</li>
+            <li>https://codepen.io/enxaneta/full/adLPwv</li>
+            
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>https://facebook.github.io/yoga/</li>
+            <li>https://pt.slideshare.net/diegoeis/flexbox-to-the-people</li>
+            <li>https://speakerdeck.com/afonsopacifer/flexbox</li>
+            <li>http://slides.com/joanleon/flexbox-webcat/embed</li>
+            <li>http://slides.com/matt-soria/flexbox#/14</li>
+            <li>http://pt-br.learnlayout.com/flexbox.html</li>
+          </ul>
+        </section>
+
+      </section>
+
+      <section>
+        <h1>Obrigado!</h1>
+      </section>
+    </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      history: true,
+
+      dependencies: [{
+        src: 'plugin/markdown/marked.js'
+      }, {
+        src: 'plugin/markdown/markdown.js'
+      }, {
+        src: 'plugin/notes/notes.js',
+        async: true
+      }, {
+        src: 'plugin/highlight/highlight.js',
+        async: true,
+        callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }]
+    });
+  </script>
+</body>
+
+</html>
