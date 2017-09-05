@@ -5,8 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>Flebox do jeito certo! @gustavoquinalha</title>
-
   <link rel="stylesheet" href="css/reveal.css">
   <link rel="stylesheet" href="css/ghq.css">
   <link rel="stylesheet" href="css/theme/black.css">
@@ -15,7 +13,7 @@
   <!-- Theme used for syntax highlighting of code -->
   <link rel="stylesheet" href="lib/css/zenburn.css">
 
-  <title>Flexbox do jeito certo - @gustavoquinalha</title>
+  <title>Um mundo de possibilidades com Flexbox - @gustavoquinalha</title>
   <meta name="description" content="Slide sobre flexbox com exemplos, flex-basis, flex-grow, flex, demo, css" />
   <meta name="author" content="Gustavo Quinalha<gusquinalha@gmail.com>" />
   <link rel="base" href="http://quinalha.me/flexbox/" />
@@ -27,12 +25,12 @@
   <meta name="msapplication-navbutton-color" content="#222222" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#222222" />
   <!-- Schema.org markup for Google+ -->
-  <meta itemprop="name" content="Flexbox do jeito certo - @gustavoquinalha" />
+  <meta itemprop="name" content="Um mundo de possibilidades com Flexbox - @gustavoquinalha" />
   <meta itemprop="description" content="Slide sobre flexbox com exemplos, flex-basis, flex-grow, flex, demo, css" />
   <meta itemprop="image" content="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" />
   <!-- markup for facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Flexbox do jeito certo - @gustavoquinalha" />
+  <meta property="og:title" content="Um mundo de possibilidades com Flexbox - @gustavoquinalha" />
   <meta property="og:url" content="http://quinalha.me/flexbox/" />
   <meta property="og:site_name" content="flexbox" />
   <meta property="og:image" content="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" />
@@ -42,7 +40,7 @@
   <meta property="fb:admins" content="" />
   <!-- markup for twitter -->
   <meta name="twitter:card" content="Gallery" />
-  <meta name="twitter:title" content="Flexbox do jeito certo - @gustavoquinalha" />
+  <meta name="twitter:title" content="Um mundo de possibilidades com Flexbox - @gustavoquinalha" />
   <meta name="twitter:description" content="Slide sobre flexbox com exemplos, flex-basis, flex-grow, flex, demo, css" />
   <meta name="twitter:creator" content="Gustavo Quinalha<gusquinalha@gmail.com>" />
   <meta name="twitter:image" content="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" />
@@ -51,7 +49,7 @@
     {
       "@context": "http://www.schema.org",
       "@type": "website",
-      "name": "flexbox do jeito certo",
+      "name": "Um mundo de possibilidades com Flexbox",
       "alternateName": "flexbox",
       "url": "http://quinalha.me/flexbox/"
     }
@@ -81,7 +79,7 @@ http://www.flexboxpatterns.com/home
 
 
       <section class="intro">
-        <h1><span class="color">Flexbox</span> do <strong>jeito certo</strong></h1>
+        <h1><span class="color">Um mundo de possibilidades com Flexbox</h1>
         <hr class="hr-theme">
         <p><a class="color-white" href="https://github.com/gustavoquinalha" target="_blank">@gustavoquinalha</a></p>
       </section>
@@ -109,12 +107,188 @@ http://www.flexboxpatterns.com/home
       </section>
 
       <section>
-        <h2 class="color">FLEXBOX</h2>
-        <img src="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" alt="" width="70%">
+        <h2 class="color">CONTINUAÇÃO</h2>
+        <hr class="hr-theme">
+        <p>Essa é uma série de slides sobre Flexbox, você pode conferir o anterior <a class="color-green" href="https://gustavoquinalha.github.io/flexbox" target="_blank">clicando aqui.</a></p>
+      </section>
+
+      <section>
+        <h2 class="color">Can i use?</h2>
+        <hr class="hr-theme">
+        <img src="./img/caniuse.png" width="90%" alt="">
+      </section>
+
+      <section>
+        
+        <section>
+          <h2 class="color">Flexbox</h2>
+          <hr class="hr-theme">
+          <ul>
+            <li><code>flex-direction</code></li>
+            <li><code>flex-wrap</code></li>
+            <li><code>flex-flow</code></li>
+            <li><code>justify-content</code></li>
+            <li><code>align-items</code></li>
+            <li><code>align-content</code></li>
+ 
+          </ul>
+        </section>
+        
+        <section>
+
+          <ul>
+            <li><code>order</code></li>
+            <li><code>align-self</code></li>
+            <li><code>flex-grow</code></li>
+            <li><code>flex-shrink</code></li>
+            <li><code>flex-basis</code></li>
+            <li><code>flex</code></li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2 class="color" style="font-size: 3rem">É responsabilidade do <span class="color-white">pai</span> cuidar e escolher o
+          melhor caminho para seu <span class="color-white">filho.</span></h2>
+          <img src="https://media.giphy.com/media/l0G17mKNa6XJHYN5m/giphy.gif" width="350" alt="">
+          <!-- <iframe src="https://giphy.com/embed/l0G17mKNa6XJHYN5m" width="400" height="auto" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+      </section>
+
+      <section>
+        <p>"Elementos filhos no layout flex podem ser posicionados em qualquer direção e possuem dimensões flexíveis para se
+          <span class="color-green">adaptar ao espaço disponível</span>"</p>
+        <a href="https://developer.mozilla.org/pt-BR/docs/CSS/Usando_caixas_flexiveis_css" target="_blank" style="font-size: 12px">Fonte: https://developer.mozilla.org/pt-BR/docs/CSS/Usando_caixas_flexiveis_css</a>
+      </section>
+
+      <section>
+        <p>"Posicionar esses nodos filhos pode ser feito facilmente, e <span class="color-green">layouts complexos podem ser construídos de uma maneira mais clara e limpa</span> . A ordem de exibição dos elementos é independente da ordem no código fonte."</p>
+        <a href="https://developer.mozilla.org/pt-BR/docs/CSS/Usando_caixas_flexiveis_css" target="_blank" style="font-size: 12px">Fonte: https://developer.mozilla.org/pt-BR/docs/CSS/Usando_caixas_flexiveis_css</a>
+      </section>
 
       </section>
 
       <section>
+        <section>
+<h2 class="color">EXEMPLOS</h2>
+<hr class="hr-theme">
+<img src="./img/examples/ex1.png" width="90%"
+  alt="">
+        </section>
+
+        <section>
+<img src="./img/examples/ex2.png" width="90%" alt="">
+        </section>
+
+        <section>
+<img src="./img/examples/ex5.png" width="90%" alt="">
+        </section>
+
+        <section>
+<img src="./img/examples/ex3.png" width="90%" alt="">
+        </section>
+
+        <section>
+<img src="./img/examples/ex4.png" width="90%" alt="">
+        </section>
+
+        <section>
+<img src="https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2014/10/flex-flow-example.png" width="90%"alt="">
+        </section>
+
+      </section>
+
+<section>
+<section>
+  <h3>Não reinvente a roda blablabalabalalabalalala</h3>
+<hr class="hr-theme" style="background:#FFF">
+  <h1>BULLSHIT!</h1>
+</section>
+<section>
+<img src="./img/roda.jpg" width="90%" alt="">
+</section>
+
+<section>
+<h3>Um pouco de história</h3>
+<hr class="hr-theme" style="background:#FFF">
+<p style="font-size: 2rem">As rodas mais antigas encontradas em explorações arqueológicas são de cerca de 3000 a 2000 a.C. e estavam em túmulos na mesma
+  Mesopotâmia. Eram compostas de três tábuas presas por suportes em forma de cruz, e a tábua central possuía um furo natural
+  no nó da madeira. A madeira em volta do nó costuma ser bastante resistente, por isso, acredita-se que esta girava em torno
+  de um eixo fixo, apesar do restante do veículo à qual estas rodas pertencessem não tenha sido conservado o bastante para
+  identificar se era assim mesmo que o conjunto funcionava. </p>
+</section>
+
+<section>
+<p style="font-size: 2rem">O primeiro aperfeiçoamento em relação aos modelos originais foi provavelmente a colocação de um aro de madeira, o que permitia
+  um desgaste uniforme da roda em toda sua superfície. Tal aro podia ser uma peça única, feita de madeira curvada com o auxílio
+  de vapor, ou então, de vários segmentos emendados. Quinhentos anos mais tarde surgiriam os primeiros aros de metal. A roda
+  com raios surge na Mesopotâmia ou na atual Turquia, e é utilizada em carros de guerra. Em torno de 1500 a.C., os egípcios
+  dominam a tecnologia, com a construção de rodas de quatro raios, bastante leves.</p>
+</section>
+
+<section>
+<p style="font-size: 2rem">
+ Sem a roda, o homem não iria muito longe. As quatro principais fontes de energia que o homem utiliza para sua existência
+são fundamentadas na roda: a água, a energia elétrica, o animal e o vento. O simples carrinho de mão inventado pelos chineses,
+cerca de 200 a.C., conduz sete vezes mais carga e passageiros do que o ombro humano. A bicicleta criada na França em 1645,
+permitia velocidades até três vezes maiores do que a de um homem caminhando pausadamente.
+  </p>
+</section>
+<section>
+  <style>
+ .exroda li {
+   padding-bottom: 10px;
+ }
+    </style>
+<ul class="exroda" style="font-size: 1.4rem">
+    <li><span class="color">Invenção da Roda: </span>com data aproximada de sua mais antiga utilização de 3500 a.C, pelo povo da Suméria, seu invento proporcionou ao ser humano maior mobilidade, já que anteriormente, o transporte era muito limitado em técnicas com troncos de madeira;
+    </li>
+    <li>
+      <span class="color">Surgimento do Barco a Vapor (1807): </span>a máquina a vapor foi essencial para muitos meios de transporte, especialmente os navios. O primeiro barco a vapor bem sucedido, foi inaugurado pelo americano Robert Fulton e era chamado de Clermont. Dentro do transporte marítimo, o vapor era capaz de movimentar essas máquinas pelos oceanos;
+    </li>
+    <li><span class="color">Surgimento do Transporte Ferroviário (1830): </span>O transporte ferroviário tornou-se popular a partir de 1830 e um dos principais inventores foi George Stephenson, criador da locomotiva a vapor;
+    </li>
+    <li>
+      <span class="color">Invenção do Automóvel Moderno (1886): </span>o alemão Karl Benz foi o responsável pela criação do primeiro automóvel de três rodas movido à gasolina;
+    </li>
+    <li>
+      <span class="color">Surgimento da Aviação Comercial (1926):</span> o avião abriu a nova fase de revolução nos transportes e sua criação é atribuída a três pessoas, os irmãos americanos Wilbur e Orville Wright (1903) e Santos Dumont (1906). Com esse meio de transporte, a população não precisa mais utilizar apenas os navios para fazer longas viagens;
+    </li>
+    <li>
+<span class="color">Início do Transporte Espacial (1926):</span> o transporte espacial começou a ser introduzido pelo americano Robert H. Gooddard, criador dos primeiros foguetes de combustível líquido.
+    </li>
+  </ul>
+</section>
+
+<section>
+<p style="font-size: 2rem">
+  <h3>O que eu quero dizer...</h3>
+<hr class="hr-theme">
+ O que eu quero dizer é que se ninguém tivesse reinventado a roda(aperfeiçoado) não estariamos nem perto de onde estamos.. Por que a evolução dela abrange muito mais,
+ o carrinho de supermercado, bicicleta, trem, aviao todos foram frutos do aperfeiçoamento da roda.
+  </p>
+</section>
+
+</section>
+
+<section>
+  <h3>Meu grid</h3>
+<hr class="hr-theme">
+</section>
+
+<section>
+
+  <section>
+    <h3>Bootstrap</h3>
+    <hr class="hr-theme">
+  </section>
+
+  <section>
+    <h3>Como ele funciona</h3>
+    <hr class="hr-theme">
+  </section>
+
+</section>
+
+      <!-- <section>
         <section>
           <h2 class="color">Flexbox Properties</h2>
           <p>Como falado antes, o flexbox possui propriedades para o <span class="bgg">container</span> e para o <span class="bgg">item</span>:</p>
@@ -134,29 +308,22 @@ http://www.flexboxpatterns.com/home
   &lt;div&gt;Item&lt;/div&gt;
 &lt;/div&gt;</code></pre>
         </section>
-      </section>
+      </section> -->
+
 
       <section>
         <section>
 
           <h2 class="color">LINKS</h2>
-          <ul>
-            <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
-            <li>https://speakerdeck.com/diogomoretti/css-layout-from-table-to-flexbox</li>
-            <li>https://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/</li>
-            <li>http://brolik.com/blog/when-to-use-flexbox/</li>
-            <li>https://codepen.io/enxaneta/full/adLPwv</li>
-            
-          </ul>
-        </section>
-        <section>
-          <ul>
-            <li>https://facebook.github.io/yoga/</li>
-            <li>https://pt.slideshare.net/diegoeis/flexbox-to-the-people</li>
-            <li>https://speakerdeck.com/afonsopacifer/flexbox</li>
-            <li>http://slides.com/joanleon/flexbox-webcat/embed</li>
-            <li>http://slides.com/matt-soria/flexbox#/14</li>
-            <li>http://pt-br.learnlayout.com/flexbox.html</li>
+          <ul style="font-size: 1.5rem">
+            <li>https://tympanus.net/codrops/css_reference/flexbox/</li>
+            <li>http://desenvolvimentoparaweb.com/css/flexbox/</li>
+            <li>https://facebook.github.io/react-native/docs/flexbox.html</li>
+            <li>https://medium.com/the-react-native-log/understanding-react-native-flexbox-layout-7a528200afd4</li>
+            <li>https://medium.freecodecamp.org/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af</li>
+            <li>http://meios-de-transporte.info/evolucao-dos-transportes.html</li>
+            <li>http://www.portalsaofrancisco.com.br/curiosidades/roda-curiosidades</li>
+            <li>http://www.carroantigo.com/portugues/conteudo/curio_roda.htm</li>
           </ul>
         </section>
 

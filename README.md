@@ -8,7 +8,21 @@
 - http://slides.com/codekipple/css-layout#/21
 - http://slides.com/rblakejohnson/rwd-layouts-flex-box#/21
 - https://pt.slideshare.net/rachelandrew/flexbox-and-grid-layout
+
 - https://tympanus.net/codrops/css_reference/flexbox/
+- http://desenvolvimentoparaweb.com/css/flexbox/
+- https://facebook.github.io/react-native/docs/flexbox.html
+- https://medium.com/the-react-native-log/understanding-react-native-flexbox-layout-7a528200afd4
+- https://medium.freecodecamp.org/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af
+
+
+## curiosidade sobre a roda
+- http://meios-de-transporte.info/evolucao-dos-transportes.html
+- http://www.portalsaofrancisco.com.br/curiosidades/roda-curiosidades
+- http://www.carroantigo.com/portugues/conteudo/curio_roda.htm
+
+
+
 
 ## Oq fazer
 - Intro
