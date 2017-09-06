@@ -16,6 +16,7 @@
 - https://medium.freecodecamp.org/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af
 - https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b
 - https://medium.freecodecamp.org/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053
+- https://medium.com/flexbox-and-grids
 
 
 ## curiosidade sobre a roda
