@@ -14,6 +14,7 @@
 - https://facebook.github.io/react-native/docs/flexbox.html
 - https://medium.com/the-react-native-log/understanding-react-native-flexbox-layout-7a528200afd4
 - https://medium.freecodecamp.org/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af
+- https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b
 
 
 ## curiosidade sobre a roda
@@ -21,7 +22,8 @@
 - http://www.portalsaofrancisco.com.br/curiosidades/roda-curiosidades
 - http://www.carroantigo.com/portugues/conteudo/curio_roda.htm
 
-
+## SPEC Flexbox
+- https://www.w3.org/TR/css-flexbox-1/
 
 
 ## Oq fazer
