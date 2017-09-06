@@ -25,6 +25,9 @@
 ## SPEC Flexbox
 - https://www.w3.org/TR/css-flexbox-1/
 
+## videos
+- https://www.youtube.com/watch?v=_98SE8WUvLk
+
 
 ## Oq fazer
 - Intro
