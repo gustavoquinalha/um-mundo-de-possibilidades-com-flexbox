@@ -60,17 +60,11 @@
     document.getElementsByTagName('head')[0].appendChild(link);
   </script>
 
-  <!--
-https://speakerdeck.com/diogomoretti/css-layout-from-table-to-flexbox
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-http://www.flexboxpatterns.com/home
--->
 </head>
 
 <body>
   <div class="reveal">
     <div class="slides">
-
 
       <section class="intro">
         <h1><span class="color">Um mundo de possibilidades com Flexbox</h1>
@@ -220,13 +214,13 @@ http://www.flexboxpatterns.com/home
               justify-content:
             </span>
           <!-- <small>flex-basis: 600px; flex-grow: 1</small> -->
-          <p style="text-align: left">around</p>
+          <p style="text-align: left">space-around</p>
           <div class="container justify-around">
             <div class="item" style="width: 50px; height: 50px">1</div>
             <div class="item" style="width: 50px; height: 50px">2</div>
             <div class="item" style="width: 50px; height: 50px">2</div>
           </div>
-          <p style="text-align: left">between</p>
+          <p style="text-align: left">space-between</p>
           <div class="container justify-between">
             <div class="item" style="width: 50px; height: 50px">1</div>
             <div class="item" style="width: 50px; height: 50px">2</div>
@@ -236,25 +230,31 @@ http://www.flexboxpatterns.com/home
 
         <section class="example">
           <span class="color">
-              align-items
+              align-items:
             </span>
-          <br>
-          <br>
           <!-- <small>flex-basis: 600px; flex-grow: 1</small> -->
-          <div class="container">
+              <p style="text-align: left">flex-start</p>
             <div class="container align-start" style="height: 200px; border-right: 1px solid #222222">
               <div class="item" style="width: 50px; height: 50px">1</div>
               <div class="item" style="width: 50px; height: 50px">2</div>
             </div>
+              <p style="text-align: left">center</p>
             <div class="container align-center" style="height: 200px; border-right: 1px solid #222222">
               <div class="item" style="width: 50px; height: 50px">1</div>
               <div class="item" style="width: 50px; height: 50px">2</div>
             </div>
-            <div class="container align-end" style="height: 200px">
-              <div class="item" style="width: 50px; height: 50px">1</div>
-              <div class="item" style="width: 50px; height: 50px">2</div>
-            </div>
-          </div>
+        </section>
+
+
+        <section class="example">
+          <span class="color">
+              align-items:
+            </span>
+<p style="text-align: left">flex-end</p>
+<div class="container align-end" style="height: 200px">
+<div class="item" style="width: 50px; height: 50px">1</div>
+<div class="item" style="width: 50px; height: 50px">2</div>
+</div>
         </section>
 
         <section class="example">
@@ -280,6 +280,7 @@ http://www.flexboxpatterns.com/home
             </span>
           <br>
           <!-- <small>flex-basis: 600px; flex-grow: 1</small> -->
+          <p style="text-align: left">flex-end</p>
           <div class="container" style="height: 200px;">
             <div class="item" style="width: 50px; height: 50px">1</div>
             <div class="item" style="width: 50px; height: 50px">2</div>
@@ -418,6 +419,22 @@ http://www.flexboxpatterns.com/home
 
         <section>
           <img src="./img/examples/ex17.png" width="90%" alt="">
+        </section>
+
+        <section>
+          <img src="./img/examples/ex18.png" width="90%" alt="">
+        </section>
+
+        <section>
+          <img src="./img/examples/ex19.png" width="90%" alt="">
+        </section>
+
+        <section>
+          <img src="./img/examples/ex20.png" width="90%" alt="">
+        </section>
+
+        <section>
+          <img src="./img/examples/ex21.png" width="90%" alt="">
         </section>
 
         <section>
